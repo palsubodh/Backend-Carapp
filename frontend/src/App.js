@@ -7,7 +7,6 @@ import {
 import { Flex, Spacer,Button,Box,ButtonGroup,Heading } from '@chakra-ui/react'
 import { Modal, ModalOverlay, ModalContent, ModalHeader, ModalFooter, ModalBody, ModalCloseButton} from '@chakra-ui/react'
 import { useDisclosure,FormControl,FormLabel,Input } from '@chakra-ui/react'
-import { Home } from "./Components/Home"
 import { Login } from "./Components/Login"
 import { Register } from "./Components/Register"
 import { Notes } from './Components/Notes';
@@ -35,12 +34,6 @@ function App() {
         </ButtonGroup>
       </Flex>
       <Notes/>
-
-      
-      
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
     </div>
   );
 }

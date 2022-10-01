@@ -37,7 +37,8 @@ function Notes() {
     }
 
     const posttodo = () => {
-        if(username=="")
+        console.log(username)
+        if(username=="" || username==null)
         {
             toast({
                 title: 'Please Login first..!!',
@@ -114,6 +115,12 @@ function Notes() {
             body: JSON.stringify({ Task: etask })
 
         })
+        .then((res) => toast({
+            title: 'Task Edited..',
+            status: 'success',
+            duration: 3000,
+            isClosable: true,
+          }))
     }
     useEffect(() => {
         getData()
