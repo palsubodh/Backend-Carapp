@@ -25,7 +25,6 @@
 </ul>
 
 <h2>Glimpses of Buffer</h2>
-![Screenshot (2)](https://user-images.githubusercontent.com/101421882/193394777-2b08f098-08f6-4731-a0ce-0377e053a2eb.png)
 
 
 ![Screenshot (3)](https://user-images.githubusercontent.com/101421882/193394694-b8d93c10-afab-4dcd-bc65-ab031f480420.png)
